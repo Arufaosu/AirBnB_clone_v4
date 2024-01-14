@@ -19,7 +19,7 @@ $(document).ready(() => {
 
     if ($(this).is(':checked')) {
       checkedAmenities[id] = name;
-    } else {
+   } else {
       delete checkedAmenities[id];
     }
 
